@@ -64,6 +64,7 @@ All circuits were first verified through Multisim simulation and then implemente
 
 ## Documentation
 - Full Project report (PDF): 
+
   • Simulation schematics  
   • Oscilloscope and logic analyzer captures  
   • Breadboard implementation photos  
