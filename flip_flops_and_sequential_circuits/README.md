@@ -1,7 +1,7 @@
 # Flip-Flops and Sequential Circuits
 
 ## Overview
-This project explores the design, simulation, and hardware implementation of fundamental sequential logic circuits using flip-flops. This project focuses on memory elements, clocked behavior, timing, and propagation delay in digital systems.
+This project explores the design, simulation, and hardware implementation of fundamental sequential logic circuits using flip flops. This project focuses on memory elements, clocked behavior, timing, and propagation delay in digital systems.
 
 All circuits were first verified through Multisim simulation and then implemented and tested on a breadboard using TTL integrated circuits.
 
@@ -12,7 +12,7 @@ All circuits were first verified through Multisim simulation and then implemente
 - 4-bit shift register
 
 ## Objectives
-- Analyze the behavior of flip-flops and latches  
+- Analyze the behavior of flip flops and latches  
 - Compare synchronous and ripple counter architectures  
 - Implement counters and shift registers using TTL ICs  
 - Validate theoretical operation through hardware measurements  
@@ -21,22 +21,22 @@ All circuits were first verified through Multisim simulation and then implemente
 ## Circuit Highlights
 
 ### D-Type Latch
-- Verified level-sensitive operation  
+- Verified level sensitive operation  
 - Output follows input only when clock is high  
 - Timing behavior confirmed using a logic analyzer  
 
 ### 3-Bit Modulo-8 Synchronous Counter
-- Built using JK flip-flops and logic gates  
-- All flip-flops clocked simultaneously  
+- Built using JK flip flops and logic gates  
+- All flip flops clocked simultaneously  
 - Demonstrated clean state transitions and predictable timing  
 
 ### 3-Bit Modulo-8 Ripple Counter
-- Constructed using D flip-flops  
+- Constructed using D flip flops  
 - Each stage clocked by the previous output  
 - Propagation delay between stages was clearly observed  
 
 ### 4-Bit Shift Register
-- Implemented with D flip-flops sharing a common clock  
+- Implemented with D flip flops sharing a common clock  
 - Demonstrated sequential data movement across stages  
 - Verified using oscilloscope and logic analyzer  
 
@@ -59,11 +59,11 @@ All circuits were first verified through Multisim simulation and then implemente
 - Sequential logic design  
 - Clocked digital systems  
 - Timing analysis and propagation delay  
-- Flip-flop–based memory elements  
+- Flip flop based memory elements  
 - Practical digital hardware debugging  
 
 ## Documentation
-- Full laboratory report (PDF)  
+- Full Project report (PDF)  
 - Simulation schematics  
 - Oscilloscope and logic analyzer captures  
 - Breadboard implementation photos  
