@@ -1,4 +1,4 @@
-# Flip-Flops and Sequential Circuits
+# Flip Flops and Sequential Circuits
 
 ## Overview
 This project explores the design, simulation, and hardware implementation of fundamental sequential logic circuits using flip flops. This project focuses on memory elements, clocked behavior, timing, and propagation delay in digital systems.
@@ -6,10 +6,10 @@ This project explores the design, simulation, and hardware implementation of fun
 All circuits were first verified through Multisim simulation and then implemented and tested on a breadboard using TTL integrated circuits.
 
 ## Implemented Circuits
-- D-type latch
-- 3-bit modulo-8 synchronous counter
-- 3-bit modulo-8 ripple (asynchronous) counter
-- 4-bit shift register
+- D type latch
+- 3 bit modulo 8 synchronous counter
+- 3 bit modulo 8 ripple (asynchronous) counter
+- 4 bit shift register
 
 ## Objectives
 - Analyze the behavior of flip flops and latches  
@@ -20,22 +20,22 @@ All circuits were first verified through Multisim simulation and then implemente
 
 ## Circuit Highlights
 
-### D-Type Latch
+### D Type Latch
 - Verified level sensitive operation  
 - Output follows input only when clock is high  
 - Timing behavior confirmed using a logic analyzer  
 
-### 3-Bit Modulo-8 Synchronous Counter
+### 3 Bit Modulo 8 Synchronous Counter
 - Built using JK flip flops and logic gates  
 - All flip flops clocked simultaneously  
 - Demonstrated clean state transitions and predictable timing  
 
-### 3-Bit Modulo-8 Ripple Counter
+### 3 Bit Modulo 8 Ripple Counter
 - Constructed using D flip flops  
 - Each stage clocked by the previous output  
 - Propagation delay between stages was clearly observed  
 
-### 4-Bit Shift Register
+### 4 Bit Shift Register
 - Implemented with D flip flops sharing a common clock  
 - Demonstrated sequential data movement across stages  
 - Verified using oscilloscope and logic analyzer  
@@ -63,7 +63,7 @@ All circuits were first verified through Multisim simulation and then implemente
 - Practical digital hardware debugging  
 
 ## Documentation
-- Full Project report (PDF)  
-- Simulation schematics  
-- Oscilloscope and logic analyzer captures  
-- Breadboard implementation photos  
+- Full Project report (PDF): 
+  • Simulation schematics  
+  • Oscilloscope and logic analyzer captures  
+  • Breadboard implementation photos  
