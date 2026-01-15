@@ -38,6 +38,12 @@ Forward and reverse I–V behavior of a Zener diode was analyzed. Reverse breakd
 ### **Zener Voltage Regulation**
 A Zener based regulation circuit was implemented and tested under varying load conditions. Regulation limits were identified based on Zener current requirements.
 
+
+## **Results and Observations**
+
+Experimental results closely matched simulation data across all circuits. Diode knee voltage and rectifier behavior aligned with theory, capacitor filtering significantly reduced ripple voltage, and the Zener diode maintained a stable output voltage within its operating current range. Minor discrepancies were attributed to component tolerances and measurement limitations.
+
+
 ## **Tools and Equipment**
 
 • Oscilloscope  
@@ -48,9 +54,15 @@ A Zener based regulation circuit was implemented and tested under varying load c
 • MATLAB  
 • Multisim  
 
-## **Results and Observations**
 
-Experimental results closely matched simulation data across all circuits. Diode knee voltage and rectifier behavior aligned with theory, capacitor filtering significantly reduced ripple voltage, and the Zener diode maintained a stable output voltage within its operating current range. Minor discrepancies were attributed to component tolerances and measurement limitations.
+## **Key Concepts Demonstrated**
+
+• Power electronics fundamentals  
+• Circuit analysis and troubleshooting  
+• Laboratory measurement techniques  
+• Simulation to hardware validation  
+• Technical documentation and reporting  
+
 
 ## **Documentation**
 
@@ -59,10 +71,3 @@ Experimental results closely matched simulation data across all circuits. Diode 
 • Oscilloscope waveforms  
 • MATLAB plots  
 
-## **Skills Demonstrated**
-
-• Power electronics fundamentals  
-• Circuit analysis and troubleshooting  
-• Laboratory measurement techniques  
-• Simulation to hardware validation  
-• Technical documentation and reporting  
