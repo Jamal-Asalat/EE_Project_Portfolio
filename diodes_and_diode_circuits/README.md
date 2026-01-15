@@ -2,9 +2,9 @@
 
 ## **Overview**
 
-This project examines the behavior and practical applications of diodes through circuit simulation and hands-on laboratory measurements. The work includes characterization of diode I–V behavior, implementation of rectifier circuits, development of a filtered DC power supply, and analysis of Zener diode voltage regulation.
+This project examines the behavior and practical applications of diodes through circuit simulation and hands on laboratory measurements. The work includes characterization of diode I–V behavior, implementation of rectifier circuits, development of a filtered DC power supply, and analysis of Zener diode voltage regulation.
 
-The objective was to understand how diode physics translates into real-world power electronics and signal conversion circuits.
+The objective was to understand how diode physics translates into real world power electronics and signal conversion circuits.
 
 ## **Implemented Circuits**
 
