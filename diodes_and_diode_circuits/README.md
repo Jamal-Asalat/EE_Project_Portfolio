@@ -1,88 +1,64 @@
-# Diodes and Diode Circuits
+Diodes and Diode Circuits
+Overview
 
-## Overview
-This project investigates the behavior and applications of diodes through simulation and hands-on laboratory measurements. The work includes studying diode I–V characteristics, implementing half-wave and full-wave rectifiers, designing a filtered DC power supply, and analyzing Zener diode voltage regulation.
+This project examines the behavior and practical applications of diodes through circuit simulation and hands-on laboratory measurements. The work includes characterization of diode I–V behavior, implementation of rectifier circuits, development of a filtered DC power supply, and analysis of Zener diode voltage regulation.
 
-The objective was to understand how diode physics translates into practical power electronics and signal conversion circuits.
+The objective was to understand how diode physics translates into real-world power electronics and signal conversion circuits.
 
----
+Key Topics Covered
 
-## Key Topics Covered
-- Diode I–V characteristics (forward and reverse bias)
-- Half-wave rectification
-- Full-wave bridge rectification
-- Capacitor-based filtering for DC power supplies
-- Zener diode operation and voltage regulation
-- Comparison of simulation results with experimental measurements
+• Diode I–V characteristics in forward and reverse bias
+• Half-wave rectification
+• Full-wave bridge rectification
+• Capacitor-based filtering for DC power supplies
+• Zener diode operation and voltage regulation
+• Comparison of simulation results with experimental measurements
 
----
+Experiments Performed
 
-## Experiments Performed
+Diode I–V Characteristics
+DC voltage and current sweeps were performed using simulation and physical measurements. The exponential I–V behavior was observed, and the diode knee voltage was identified in the 0.6–0.7 V range. Experimental results were compared to ideal diode and battery models.
 
-### 1. Diode I–V Characteristics
-- Performed DC voltage and current sweeps using simulation and physical measurements
-- Observed exponential I–V behavior and identified the diode knee voltage (~0.6–0.7 V)
-- Compared diode behavior to ideal battery models and discussed limitations
+Half-Wave Rectifier
+A half-wave rectifier was constructed using a single diode and resistive load. A sinusoidal AC input produced a pulsating DC output, verified using oscilloscope measurements.
 
-### 2. Half-Wave Rectifier
-- Built a half-wave rectifier using a single diode and resistive load
-- Applied a sinusoidal AC input and observed pulsating DC output
-- Verified rectification behavior using oscilloscope measurements
+Full-Wave Rectifier
+A bridge rectifier using four diodes was implemented to convert both halves of the AC waveform. Voltage drops across conduction paths were measured and matched expected theoretical behavior.
 
-### 3. Full-Wave Rectifier
-- Designed and implemented a bridge rectifier using four diodes
-- Demonstrated rectification of both halves of the AC waveform
-- Measured voltage drops across conduction paths and verified expected behavior
+Filtered DC Power Supply
+A capacitor filter was added to the full-wave rectifier to reduce output ripple and produce a smoother DC voltage. Measured ripple closely matched theoretical calculations.
 
-### 4. Filtered DC Power Supply
-- Added a capacitor filter to the full-wave rectifier
-- Reduced output ripple and produced a smoother DC voltage
-- Compared theoretical ripple calculations with measured results
+Zener Diode Characteristics
+Forward and reverse I–V behavior of a Zener diode was analyzed. Reverse breakdown was observed near the specified Zener voltage and confirmed through both simulation and lab measurements.
 
-### 5. Zener Diode Characteristics
-- Analyzed forward and reverse I–V behavior of a Zener diode
-- Observed reverse breakdown near the specified Zener voltage
-- Compared simulation data with physical measurements
+Zener Voltage Regulation
+A Zener-based regulation circuit was implemented and tested under varying load conditions. Regulation limits were identified based on Zener current requirements.
 
-### 6. Zener Voltage Regulation
-- Implemented a Zener-based voltage regulation circuit
-- Tested regulation under varying load conditions
-- Identified operating limits based on Zener current requirements
+Tools and Equipment
 
----
+• Oscilloscope
+• Function generator
+• DC power supply
+• Digital multimeter (DMM)
+• Breadboard (protoboard)
+• MATLAB
+• Multisim
 
-## Tools & Equipment
-- Oscilloscope
-- Function Generator
-- DC Power Supply
-- Digital Multimeter (DMM)
-- Breadboard (Protoboard)
-- MATLAB
-- Multisim
+Results and Observations
 
----
+Experimental results closely matched simulation data across all circuits. Diode knee voltage and rectifier behavior aligned with theory, capacitor filtering significantly reduced ripple voltage, and the Zener diode maintained a stable output voltage within its operating current range. Minor discrepancies were attributed to component tolerances and measurement limitations.
 
-## Results & Observations
-- Experimental results closely matched simulation data
-- Diode knee voltage and rectifier behavior aligned with theory
-- Capacitor filtering significantly reduced ripple voltage
-- Zener diode maintained stable output voltage within its operating current range
+Documentation
 
-Minor discrepancies were attributed to real-world component tolerances and measurement limitations.
+• Full laboratory report (PDF)
+• Circuit schematics
+• Oscilloscope waveforms
+• MATLAB plots
 
----
+Skills Demonstrated
 
-## Documentation
-- Full laboratory report (PDF)
-- Circuit schematics
-- Oscilloscope waveforms
-- MATLAB plots
-
----
-
-## Skills Demonstrated
-- Power electronics fundamentals
-- Circuit analysis and troubleshooting
-- Laboratory measurement techniques
-- Simulation-to-hardware validation
-- Technical documentation and reporting
+• Power electronics fundamentals
+• Circuit analysis and troubleshooting
+• Laboratory measurement techniques
+• Simulation-to-hardware validation
+• Technical documentation and reporting
