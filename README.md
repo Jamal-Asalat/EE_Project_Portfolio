@@ -1,6 +1,6 @@
 # Electrical Engineering Portfolio – Jamal Asalat
 
-Bachelor of Engineering (Electrical Engineering) student at The City College of New York (ABET accredited) with hands on experience in circuit design, analysis, and hardware focused electrical systems.
+Electrical Engineering (Bachelor of Engineering) student at The City College of New York (ABET accredited) with hands on experience in circuit design, analysis, and hardware focused electrical systems.
 
 This repository contains selected academic and personal engineering projects demonstrating:
 
