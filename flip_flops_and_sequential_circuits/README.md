@@ -63,8 +63,5 @@ All circuits were first verified through Multisim simulation and then implemente
 - Practical digital hardware debugging  
 
 ## Documentation
-- Full Project report (PDF): 
-
-  - Simulation schematics  
-  - Oscilloscope and logic analyzer captures  
-  - Breadboard implementation photos  
+Full project report with schematics, measurements, and analysis:
+• Flip Flops and Sequential Circuits Project Report (PDF)
