@@ -1,95 +1,74 @@
 # Audio Amplifier and Microphone System
 
 ## Overview
-This project involves the design, simulation, construction, and testing of an audio amplification system capable of driving an 8 Ω speaker load. The system was developed as part of Electrical Engineering Laboratory II and focuses on practical amplifier design considerations such as efficiency, distortion, gain, biasing, and thermal stability.
+This project focuses on the design, simulation, and hardware implementation of a discrete analog audio amplification system. The work was completed in multiple parts, progressing from a small signal voltage amplifier to a power amplifier capable of driving a speaker, and finally integrating a microphone input for real audio capture and playback.
 
-The final implementation uses a **Class-B push-pull power amplifier topology**, selected after evaluating multiple amplifier configurations for performance and efficiency.
+All amplifier stages were first analyzed theoretically, verified through Multisim simulation, and then constructed and tested on a protoboard using discrete components.
 
----
+## Implemented Stages
+- Single stage common emitter voltage amplifier (audio preamplifier)
+- Class B push pull power amplifier
+- Microphone signal integration into the amplifier chain
 
-## Project Objectives
-- Design an audio power amplifier capable of delivering **≥ 0.7 W** to an 8 Ω speaker  
-- Operate from a **12 V DC supply**
-- Achieve **> 40% efficiency**
-- Minimize crossover distortion
-- Maintain sufficient input impedance for audio signal sources
-- Validate performance through simulation and physical measurements
+## Objectives
+- Design and bias a BJT based audio voltage amplifier  
+- Analyze gain, input/output impedance, and frequency response  
+- Implement a power efficient output stage capable of driving an 8 Ω load  
+- Measure amplifier performance using lab instrumentation  
+- Integrate a microphone level signal into the amplifier system  
+- Observe real world effects such as distortion, efficiency, and noise  
 
----
+## Circuit Highlights
 
-## Design Approach
-Several amplifier topologies were evaluated using circuit simulation, including:
-- Direct source drive
-- Common-emitter amplifier
-- Emitter follower
-- Class-B push-pull amplifier
+### Common Emitter Voltage Amplifier (Preamp)
+- Designed for mid band voltage gain suitable for audio signals  
+- Biasing network selected to ensure stable operation in the active region  
+- Input and output coupling capacitors used to block DC offsets  
+- Measured gain closely matched simulation and theoretical predictions  
+- Frequency response demonstrated expected low frequency roll off behavior  
 
-Based on comparative analysis, the **Class-B push-pull amplifier** was selected due to its superior efficiency and ability to meet power and distortion requirements.
+### Class B Push Pull Power Amplifier
+- Implemented to efficiently deliver power to an 8 Ω speaker  
+- Push pull topology selected to improve efficiency over class A operation  
+- Achieved output power exceeding the design requirement  
+- Measured efficiency surpassed 40%, meeting project specifications  
+- Output waveforms confirmed proper amplification with manageable distortion  
 
-Key design considerations included:
-- Proper biasing to reduce crossover distortion
-- Thermal stabilization using emitter resistors
-- Bias voltage generation using diode-connected transistors
-- Optimization of efficiency and output swing
+### Microphone Integration
+- Microphone level signals were successfully interfaced with the amplifier system  
+- AC coupling was used to prevent DC bias interference between stages  
+- The amplifier chain provided sufficient gain to amplify microphone input to an audible output  
+- The complete system demonstrated microphone to speaker functionality  
+- Measurement data was collected for the microphone stage and will be documented in a dedicated report  
 
----
-
-## Circuit Description
-The final amplifier consists of:
-- Complementary push-pull output transistors
-- Capacitive coupling for AC signal transfer
-- Emitter resistors for thermal stability
-- Bias network to maintain approximately **0.6 V** base-emitter bias
-- Load resistance of **8 Ω** representing a speaker
-
-The amplifier was designed to operate at **1 kHz** with a sinusoidal input signal.
-
----
+## Results and Observations
+- Experimental measurements closely matched Multisim simulations  
+- Bias voltages remained stable across operating conditions  
+- The voltage amplifier provided consistent mid band gain  
+- The power amplifier delivered sufficient output power with good efficiency  
+- Microphone input was successfully amplified and reproduced through the speaker  
+- Minor noise and distortion were observed, primarily due to breadboard wiring and component tolerances  
 
 ## Tools and Equipment
-- Circuit simulation software (SPICE-based)
-- Oscilloscope
-- Function generator
-- Multimeter
-- DC power supply
-- Discrete transistors, resistors, capacitors
-- Protoboard for physical construction
+- Multisim (circuit simulation)  
+- Protoboard (breadboard implementation)  
+- Oscilloscope  
+- Function generator  
+- DC power supply  
+- Discrete BJTs, resistors, capacitors  
+- 8 Ω speaker load  
 
----
-
-## Performance Results
-- **Output Power:** ≈ **1 W** into 8 Ω  
-- **Efficiency:** ≈ **52%**  
-- **Voltage Gain:** ~0.88 V/V  
-- **Input Impedance:** ≈ **5.9 kΩ**  
-- **Distortion:** Minimal, no observable crossover distortion  
-- **Operation:** Stable across temperature variations
-
-Measured experimental results closely matched simulated values, with small deviations attributed to component tolerances and wiring effects.
-
----
-
-## Validation and Testing
-- Transient simulations verified clean output waveforms without clipping
-- DC operating point analysis confirmed proper biasing
-- Oscilloscope measurements validated gain, output power, and efficiency
-- Physical protoboard implementation demonstrated reliable real-world operation
-
----
+## Key Concepts Demonstrated
+- Analog audio amplifier design  
+- BJT biasing and small signal analysis  
+- Gain staging and signal conditioning  
+- Power amplification and efficiency  
+- Microphone level signal integration  
+- Practical analog hardware debugging  
 
 ## Documentation
-- Full laboratory reports (PDF)
-- Circuit schematics
-- Simulation plots
-- Measured oscilloscope waveforms
-- Demonstration video of constructed amplifier (external)
+Complete project documentation with schematics, calculations, simulations, and experimental measurements:
 
----
-
-## Key Skills Demonstrated
-- Analog circuit design
-- Audio power amplification
-- Efficiency and thermal analysis
-- SPICE simulation and verification
-- Hands-on prototyping and measurement
-- Interpretation of electrical schematics
+  • Audio Amplifier – Part I (Voltage Amplifier) Report (PDF)  
+  • Audio Amplifier – Part II (Power Amplifier) Report (PDF)  
+  • Microphone Integration Report (PDF)
