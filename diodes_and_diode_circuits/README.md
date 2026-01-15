@@ -64,10 +64,7 @@ Experimental results closely matched simulation data across all circuits. Diode 
 • Technical documentation and reporting  
 
 
-## **Documentation**
+## Documentation
+- Full project report with schematics, measurements, and analysis:
 
-• Full laboratory report (PDF)  
-• Circuit schematics  
-• Oscilloscope waveforms  
-• MATLAB plots  
-
+  • Diodes and Diode Circuits Project Report (PDF)
