@@ -65,4 +65,4 @@ All circuits were first verified through Multisim simulation and then implemente
 ## Documentation
 - Full project report with schematics, measurements, and analysis:
 
-• Flip Flops and Sequential Circuits Project Report (PDF)
+  • Flip Flops and Sequential Circuits Project Report (PDF)
