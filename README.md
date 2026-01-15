@@ -16,30 +16,30 @@ This repository contains selected academic and personal engineering projects dem
 
 1. **Digital Clock Circuit**  
    Multi-stage TTL based digital clock implementing cascading counters, seven-segment display decoding, timing control, and reset logic for seconds, minutes, and hours.  
-   📁 `digital_clock_circuit`
+   `digital_clock_circuit`
 
 2. **Audio Amplifier and Microphone Circuit**  
    Analog audio signal amplification system with gain, bandwidth, noise, and distortion analysis using oscilloscopes and function generators.  
-   📁 `audio_amplifier_and_microphone`
+   `audio_amplifier_and_microphone`
    
 3. **AI Embedded Glasses (In Progress)**  
    Wearable embedded system project focused on hardware integration, power management, and AI assisted functionality in a glasses form factor.  
-   📁 `ai_embedded_glasses`
+   `ai_embedded_glasses`
    
 4. **Diodes and Diode Circuits**  
    Experimental and simulated analysis of diode I–V characteristics, half-wave and full-wave rectifiers, capacitor filtering, and Zener diode voltage regulation.  
-   📁 `diodes_and_diode_circuits`
+   `diodes_and_diode_circuits`
    
 5. **Flip Flops and Sequential Circuits**  
    Design and hardware implementation of D-type latches, synchronous and ripple counters, and shift registers with timing and propagation delay analysis.  
-   📁 `flip_flops_and_sequential_circuits`
+   `flip_flops_and_sequential_circuits`
    
 6. **Regulated DC Power Supply**  
    Design, simulation, and hardware verification of a Zener and op-amp based regulated DC power supply. The project evaluates load regulation, ripple reduction, and voltage stability under varying load conditions.  
-   📁 `regulated_dc_power_supply`
+   `regulated_dc_power_supply`
 
 7. **Tesla Coil (Foundational Project):** Built a handheld, battery powered Tesla coil to explore electromagnetic induction and high voltage resonance, demonstrating wireless energy transfer by illuminating a fluorescent bulb without direct electrical contact.  
-📁 `Tesla_Coil`
+`Tesla_Coil`
 
 
 ---
