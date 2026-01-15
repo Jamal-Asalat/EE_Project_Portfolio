@@ -69,6 +69,6 @@ All amplifier stages were first analyzed theoretically, verified through Multisi
 ## Documentation
 Complete project documentation with schematics, calculations, simulations, and experimental measurements:
 
-  • Audio Amplifier – Part I (Voltage Amplifier) Report (PDF)  
-  • Audio Amplifier – Part II (Power Amplifier) Report (PDF)  
-  • Microphone Integration Report (PDF)
+  • Audio Amplifier (Part I) - Project Report (PDF)  
+  • Audio Amplifier (Part II) - Project Report (PDF)  
+  • Microphone Integration Project Report (PDF)
