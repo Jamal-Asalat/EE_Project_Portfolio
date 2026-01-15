@@ -69,4 +69,4 @@ The seconds and minutes circuits operated correctly, displaying accurate counts 
 
 Full project report with schematics, measurements, and analysis:
 
-- Digital Clock Project Report (PDF)
+- Digital Clock Cicrcuit Project Report (PDF)
