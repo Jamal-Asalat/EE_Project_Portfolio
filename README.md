@@ -22,7 +22,7 @@ This repository contains selected academic and personal engineering projects dem
    Analog audio signal amplification system with gain, bandwidth, noise, and distortion analysis using oscilloscopes and function generators.  
    `audio_amplifier_and_microphone`
    
-3. **AI Embedded Glasses (In Progress)**  
+3. **Smart Glasses (In Progress)**  
    Wearable embedded system project focused on hardware integration, power management, and AI assisted functionality in a glasses form factor.  
    `ai_embedded_glasses`
    
