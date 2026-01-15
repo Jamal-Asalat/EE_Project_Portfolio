@@ -44,7 +44,7 @@ A function generator provided a square wave clock signal, typically set to 1 Hz,
 
 ## Results and Observations
 
-The seconds and minutes circuits operated correctly, displaying accurate counts from 00 to 59 with proper cascading and reset behavior. Display decoding and timing were consistent with theoretical expectations. The hours circuit demonstrated correct counting logic but experienced intermittent instability due to wiring and breadboard limitations. Overall system behavior highlighted the importance of precise wiring, synchronization logic, and signal integrity in digital systems.
+The seconds, minutes, and hours circuits operated as intended, displaying accurate counts with proper cascading and reset behavior. Display decoding and timing closely matched theoretical expectations, and the clock advanced reliably across all stages. Minor instability encountered during initial testing was resolved through wiring verification and signal integrity improvements. Overall, the system demonstrated correct digital clock operation and emphasized the importance of precise wiring, synchronization logic, and careful hardware implementation in digital systems.
 
 ## Tools and Equipment
 
