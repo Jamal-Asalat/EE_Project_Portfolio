@@ -1,6 +1,5 @@
 # Diodes and Diode Circuits
 
----
 
 ## **Overview**
 
@@ -8,7 +7,6 @@ This project examines the behavior and practical applications of diodes through 
 
 The objective was to understand how diode physics translates into real-world power electronics and signal conversion circuits.
 
----
 
 ## **Key Topics Covered**
 
@@ -19,7 +17,6 @@ The objective was to understand how diode physics translates into real-world pow
 • Zener diode operation and voltage regulation  
 • Comparison of simulation results with experimental measurements  
 
----
 
 ## **Experiments Performed**
 
@@ -41,8 +38,6 @@ Forward and reverse I–V behavior of a Zener diode was analyzed. Reverse breakd
 ### **Zener Voltage Regulation**
 A Zener-based regulation circuit was implemented and tested under varying load conditions. Regulation limits were identified based on Zener current requirements.
 
----
-
 ## **Tools and Equipment**
 
 • Oscilloscope  
@@ -53,13 +48,9 @@ A Zener-based regulation circuit was implemented and tested under varying load c
 • MATLAB  
 • Multisim  
 
----
-
 ## **Results and Observations**
 
 Experimental results closely matched simulation data across all circuits. Diode knee voltage and rectifier behavior aligned with theory, capacitor filtering significantly reduced ripple voltage, and the Zener diode maintained a stable output voltage within its operating current range. Minor discrepancies were attributed to component tolerances and measurement limitations.
-
----
 
 ## **Documentation**
 
@@ -67,8 +58,6 @@ Experimental results closely matched simulation data across all circuits. Diode 
 • Circuit schematics  
 • Oscilloscope waveforms  
 • MATLAB plots  
-
----
 
 ## **Skills Demonstrated**
 
