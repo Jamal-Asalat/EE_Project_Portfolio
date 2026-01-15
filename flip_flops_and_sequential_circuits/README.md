@@ -53,7 +53,7 @@ All circuits were first verified through Multisim simulation and then implemente
 - Oscilloscope and logic analyzer  
 - Word / logic generator  
 - TTL ICs (74LS74, 74LS76, 74LS00)  
-- Triple DC power supply  
+- DC power supply  
 
 ## Key Concepts Demonstrated
 - Sequential logic design  
