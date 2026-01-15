@@ -36,7 +36,7 @@ The seconds and minutes circuits were implemented using BCD counters configured 
 
 ### Hours Counter
 
-The hours circuit was designed to operate in a 24 hour format using BCD counters and logic gates to reset the count after 23. The hours counter advanced based on the carry out signal from the minutes circuit. Partial operation was achieved, with some instability observed due to wiring complexity.
+The hours circuit was designed to operate in a 24 hour format using BCD counters and logic gates to reset the count after 23. The hours counter advanced based on the carry out signal from the minutes circuit. This action was achieved, with some initial instability observed due to wiring complexity.
 
 ### Clock Pulse Generation
 
