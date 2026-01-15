@@ -67,4 +67,4 @@ Experimental results closely matched simulation data across all circuits. Diode 
 ## Documentation
 - Full project report with schematics, measurements, and analysis:
 
-  • Diodes and Diode Circuits Project Report.pdf
+  • Diodes and Diode Circuits Project Report (PDF)
