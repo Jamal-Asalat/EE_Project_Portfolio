@@ -24,7 +24,7 @@ This repository contains selected academic and personal engineering projects dem
    
 3. **Smart Glasses (In Progress)**  
    Wearable embedded system project focused on hardware integration, power management, and AI assisted functionality in a glasses form factor.  
-   `ai_embedded_glasses`
+   `smart_glasses`
    
 4. **Diodes and Diode Circuits**  
    Experimental and simulated analysis of diode I–V characteristics, half-wave and full-wave rectifiers, capacitor filtering, and Zener diode voltage regulation.  
