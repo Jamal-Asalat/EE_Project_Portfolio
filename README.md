@@ -18,11 +18,11 @@ This repository contains selected academic and personal engineering projects dem
    Multi-stage TTL based digital clock implementing cascading counters, seven-segment display decoding, timing control, and reset logic for seconds, minutes, and hours.  
    `digital_clock_circuit`
 
-2. **Audio Amplifier and Microphone Circuit**  
+2. **Audio Amplifier and Microphone Circuit (Report In Progress)**  
    Analog audio signal amplification system with gain, bandwidth, noise, and distortion analysis using oscilloscopes and function generators.  
    `audio_amplifier_and_microphone`
    
-3. **Smart Glasses (In Progress)**  
+3. **Smart Glasses (Project In Progress)**  
    Wearable embedded system project focused on hardware integration, power management, and AI assisted functionality in a glasses form factor.  
    `smart_glasses`
    
@@ -38,7 +38,7 @@ This repository contains selected academic and personal engineering projects dem
    Design, simulation, and hardware verification of a Zener and op-amp based regulated DC power supply. The project evaluates load regulation, ripple reduction, and voltage stability under varying load conditions.  
    `regulated_dc_power_supply`
 
-7. **Tesla Coil (Foundational Project):** Built a handheld, battery powered Tesla coil to explore electromagnetic induction and high voltage resonance, demonstrating wireless energy transfer by illuminating a fluorescent bulb without direct electrical contact.  
+7. **Tesla Coil (Foundational Project) (Report In Progress):** Built a handheld, battery powered Tesla coil to explore electromagnetic induction and high voltage resonance, demonstrating wireless energy transfer by illuminating a fluorescent bulb without direct electrical contact.  
 `Tesla_Coil`
 
 
