@@ -68,6 +68,7 @@ All amplifier stages were first analyzed theoretically, verified through Multisi
 
 ## Documentation
 Complete project documentation with schematics, calculations, simulations, and experimental measurements:
+
 (Project is completed but the report is still in progress)
  
   • Audio Amplifier (Part I) - Project Report (PDF)  
