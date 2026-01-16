@@ -67,7 +67,9 @@ All amplifier stages were first analyzed theoretically, verified through Multisi
 - Practical analog hardware debugging  
 
 ## Documentation
-Complete project documentation with schematics, calculations, simulations, and experimental measurements (Project is completed but the report is still being finished):
+Complete project documentation with schematics, calculations, simulations, and experimental measurements:
+(Project is completed but the report is still in progress)
+ 
   • Audio Amplifier (Part I) - Project Report (PDF)  
   • Audio Amplifier (Part II) - Project Report (PDF)  
   • Microphone Integration Project Report (PDF)
